@@ -16,7 +16,8 @@ int main()
     cin>>q;
     for(long long i = 0; i < q; i++) {
         cin>>x;
-        cout<<l[x-1]<<'\n';
+        if(x == 0) cout<<0<<'\n';
+        else cout<<l[x-1]<<'\n';
     }
     return 0;
 }
